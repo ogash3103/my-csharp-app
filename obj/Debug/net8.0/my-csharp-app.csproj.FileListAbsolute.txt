@@ -1,0 +1,15 @@
+/Users/apple/development/my-csharp-app/bin/Debug/net8.0/my-csharp-app
+/Users/apple/development/my-csharp-app/bin/Debug/net8.0/my-csharp-app.deps.json
+/Users/apple/development/my-csharp-app/bin/Debug/net8.0/my-csharp-app.runtimeconfig.json
+/Users/apple/development/my-csharp-app/bin/Debug/net8.0/my-csharp-app.dll
+/Users/apple/development/my-csharp-app/bin/Debug/net8.0/my-csharp-app.pdb
+/Users/apple/development/my-csharp-app/obj/Debug/net8.0/my-csharp-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/development/my-csharp-app/obj/Debug/net8.0/my-csharp-app.AssemblyInfoInputs.cache
+/Users/apple/development/my-csharp-app/obj/Debug/net8.0/my-csharp-app.AssemblyInfo.cs
+/Users/apple/development/my-csharp-app/obj/Debug/net8.0/my-csharp-app.csproj.CoreCompileInputs.cache
+/Users/apple/development/my-csharp-app/obj/Debug/net8.0/my-csharp-app.sourcelink.json
+/Users/apple/development/my-csharp-app/obj/Debug/net8.0/my-csharp-app.dll
+/Users/apple/development/my-csharp-app/obj/Debug/net8.0/refint/my-csharp-app.dll
+/Users/apple/development/my-csharp-app/obj/Debug/net8.0/my-csharp-app.pdb
+/Users/apple/development/my-csharp-app/obj/Debug/net8.0/my-csharp-app.genruntimeconfig.cache
+/Users/apple/development/my-csharp-app/obj/Debug/net8.0/ref/my-csharp-app.dll
