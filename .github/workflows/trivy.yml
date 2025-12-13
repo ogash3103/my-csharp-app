@@ -1,0 +1,39 @@
+name: Trivy Docker Image Scan
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  trivy-scan:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      security-events: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # Dockerfile root'da bo'lsa:
+      - name: Build Docker image
+        run: docker build -t myapp:${{ github.sha }} .
+
+      # Console'ga table ko'rinishida chiqaradi
+      - name: Trivy scan (table)
+        uses: aquasecurity/trivy-action@0.20.0
+        with:
+          scan-type: image
+          image-ref: myapp:${{ github.sha }}
+          severity: CRITICAL,HIGH
+          ignore-unfixed: true
+          format: table
+
+      # GitHub Security tab uchun SARIF
+      - name: Trivy scan (SARIF)
